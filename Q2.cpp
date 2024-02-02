@@ -40,12 +40,12 @@ int main() {
     int index = binarySearch(arr, n, key, comparisons);
 
     if (index != -1) {
-        cout << "Element found at index " << index << std::endl;
+        cout << "Element found at index " << index << endl;
     } else {
-        cout << "Element not found in the array" << std::endl;
+        cout << "Element not found in the array" << endl;
     }
 
-    cout << "Total number of comparisons: " << comparisons << std::endl;
+    cout << "Total number of comparisons: " << comparisons << endl;
 
     return 0;
 }
